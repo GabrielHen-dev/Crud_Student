@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../styles/adicionar.css">
+    <title>Crud Student</title>
+</head>
+<body>
+
+    <div class="button-listar">
+        <button class="button-adm"><a href="administrar.html">Administrar</a></button>
+    </div>
+
+    <form id="form-cadastro">
+        <div class="container">            
+            <h1 class="cadastro">Cadastro</h1>
+            
+            <div class="cads">
+                <label> Nome: </label>
+                <div class="input-container">
+                    <input type="text" id="nome" name="nome" placeholder="Digite o seu nome">
+                    <span class="err" id="nomeerr"></span>
+                </div>
+            </div>
+
+            <div class="cads">
+                <label for="email">Email:</label>
+                <div class="input-container">
+                    <input type="email" id="email" name="email" placeholder="Digite o seu e-mail">
+                    <span class="err" id="emailerr"></span>
+                </div>
+            </div>
+            
+            <div class="cads">
+                <label for="curso">Curso:</label>
+                <div class="input-container">
+                    <input type="text" id="curso" name="curso" placeholder="Digite o seu curso">
+                    <span class="err" id="cursoerr"></span>
+                </div>
+            </div>
+            
+            <div class="cads">
+                <label for="periodo">Período:</label>
+                <div class="input-container">
+                    <input type="text" id="periodo" name="periodo" placeholder="Digite o seu período">
+                    <span class="err" id="periodoerr"></span>
+                </div>
+            </div>
+            
+            <div class="cads">
+                <label for="turma">Turma:</label>
+                <div class="input-container">
+                    <input type="text" id="turma" name="turma" placeholder="Digite a sua turma">
+                    <span class="err" id="turmaerr"></span>
+                </div>
+            </div>
+            
+            <div class="cads">
+                <label for="turno">Turno:</label>
+                <div class="input-container">
+                    <input type="text" id="turno" name="turno" placeholder="Digite o seu turno">
+                    <span class="err" id="turnoerr"></span>
+                </div>
+            </div>
+            
+            <div class="cads">
+                <label for="endereco">Endereço:</label>
+                <div class="input-container">
+                    <input type="text" id="endereco" name="endereco" placeholder="Digite o seu endereço">
+                    <span class="err" id="enderecoerr"></span>
+                </div>
+            </div>
+            
+            <div class="cads">
+                <label for="telefone">Telefone:</label>
+                <div class="input-container">
+                    <input type="text" id="telefone" name="telefone" placeholder="(xx)xxxxx-xxxx">
+                    <span class="err" id="telefoneerr"></span>
+                </div>
+            </div>
+
+            <div id="message"></div>
+
+            
+            <button type="submit">Cadastrar</button>
+            
+            
+    </form>        
+        
+    <script src="../scripts/adicionar.js"></script>
+
+</body>
+</html>
