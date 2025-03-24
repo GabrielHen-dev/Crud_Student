@@ -15,6 +15,3 @@ Desenvolvi este sistema como parte do meu aprendizado, explorando conceitos bás
 - CORS
 
 - MongoDB
-
-Sinta-se à vontade para contribuir! 🚀
-
