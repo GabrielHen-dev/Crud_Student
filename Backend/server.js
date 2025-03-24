@@ -7,7 +7,7 @@ const app = express();
 app.use(cors());
 app.use(express.json());
 
-mongoose.connect("mongodb+srv://GabrielH:ghco2006@cluster0.qt5mz.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0",{
+mongoose.connect(mongodb+srv://<db_username>:<db_password>@cluster0.qt5mz.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0,{
     
   serverSelectionTimeoutMS: 5000, // Tempo máximo de espera para conectar ao servidor
   socketTimeoutMS: 45000, // Tempo máximo de espera para operações
